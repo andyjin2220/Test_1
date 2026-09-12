@@ -25,8 +25,8 @@ void Printing_Heart(int h, char s)
         }
 
         printf(" ");
-        
-        //반복
+
+        // 반복
         for (int j = 0; j < c_h - i - 1; j++)
         {
             printf(" ");
@@ -68,4 +68,5 @@ int main()
 {
     scanf("%d %c", &triangle_height, &sign);
     Printing_Heart(triangle_height, sign);
+    return 0;
 }

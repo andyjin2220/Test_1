@@ -81,4 +81,5 @@ int main()
 {
     scanf("%d", &num);
     funtion(num);
+    return 0;
 }

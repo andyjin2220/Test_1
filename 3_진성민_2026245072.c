@@ -104,4 +104,5 @@ int main()
 {
     scanf("%d %d", &row, &col);
     play(row, col);
+    return 0;
 }
