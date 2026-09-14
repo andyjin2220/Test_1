@@ -4,6 +4,7 @@
 
 int random_num;
 int guess_num;
+int t;
 
 int return_random_num() //랜덤한 숫자 리턴
 {
@@ -20,14 +21,17 @@ int compare()   //랜덤한 숫자와 추측숫자 비교
     else if (random_num > guess_num)
     {
         printf("%d보다 큰 숫자 입니다\n", guess_num);
+        t++;
     }
     else if (random_num < guess_num)
     {
         printf("%d보다 작은 숫자 입니다\n", guess_num);
+        t++;
     }
     else if (random_num == guess_num)
     {
-        printf("정답입니다! 7번 만에 맞췄습니다.\n");
+        t++;
+        printf("정답입니다! %d번 만에 맞췄습니다.\n",t);
         return 1;
     }
     return 0;
