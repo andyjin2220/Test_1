@@ -8,7 +8,7 @@ int num_list[50]; // C언어에서 최대로 받을 수 있는 자릿수가 38�
 int check_palindrome()
 {
     printf("자연수를 입력하세요: ");
-    scanf(" %d", &num); //입력이 10자리를 넘어가면 오버플로우가 남
+    scanf(" %d", &num); //입력이 10자리를 넘어가면 오버플로우가 
     check_digits = num;
     while (1) // num의 자릿수 확인 & 자릿수별 숫자 저장
     {
